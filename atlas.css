@@ -6,7 +6,7 @@
   
   body {
     font-family: 'Segoe UI', sans-serif;
-    background-color: #f9f9f9;
+    background-color: #646464;
     color: #333;
   }
   
@@ -45,8 +45,8 @@
     font-size: 2rem;
     font-weight: bold;
     letter-spacing: 1px;
-    color: rgba(255, 255, 255, 0.85); /* semi-transparent white */
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.6); /* improves contrast */
+    color: rgb(255, 255, 255); /* semi-transparent white */
+    text-shadow: 4px 4px 10px rgba(49, 238, 255, 0.6); /* improves contrast */
   }
   
   /* Nav links */
@@ -82,10 +82,10 @@
   .spy-box {
     max-width: 800px;
     margin: 5rem auto; /* center on page with spacing */
-    background-color: #f9fafb; /* light background */
+    background-color: #173959; /* light background */
     padding: 2rem;
     border-radius: 12px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
     position: relative;
     top: -80px;  /* match offset if needed */
     left: -200px;
@@ -97,7 +97,7 @@
     font-weight: bold;
     letter-spacing: 1px;
     color: rgba(255, 255, 255, 0.85); /* semi-transparent white */
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.6); /* improves contrast */
+    text-shadow: 1px 2px 4px rgba(1, 247, 255, 0.6); /* improves contrast */
     position: relative;
     top: -170px;     /* Move up */
     left: -230px;    /* Move left */
@@ -115,7 +115,8 @@
     font-size: 1.1rem;
     line-height: 1.6;
     margin: 0.5rem 0;
-    color: #16c7f8; /* mid-gray text */
+    color: #ffffff; /* mid-gray text */
+    text-shadow: 1px 1px 2px rgba(0, 245, 249, 0.6);
     position: relative;
     top: -100px;     /* Move up */
     left: -240px; 
