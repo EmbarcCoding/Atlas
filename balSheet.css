@@ -1,0 +1,27 @@
+.balance-sheet-box {
+    max-width: 900px;
+    margin: 4rem auto;
+    background-color: #1e3a5f;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .balance-sheet-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 2px 2px 6px rgba(0, 255, 255, 0.4);
+    margin-bottom: 1rem;
+  }
+  
+  .balance-sheet-data {
+    font-size: 1rem;
+    color: #ffffff;
+    line-height: 1.6;
+    text-shadow: 1px 1px 3px rgba(0, 245, 249, 0.4);
+  }
+  
+  .balance-sheet-data p {
+    margin: 0.5rem 0;
+  }
